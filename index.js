@@ -33,5 +33,6 @@ function prependKitten(name) {
 }
 
 function removeLastKitten(name) {
-  var moreKittens = kittens.
+  var fewerKittens = kittens.shift()
+  return fewerKittens
 }
